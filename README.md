@@ -34,7 +34,7 @@
 git clone https://github.com/noxsyn-z27/yaji-dotenv.git ~/.config/yazi
 
 # プラグインをインストール
-ya pack -i
+ya pkg install
 ```
 
 > `plugins/` ディレクトリは `.gitignore` により管理対象外です。`ya pack -i` で再生成してください。
