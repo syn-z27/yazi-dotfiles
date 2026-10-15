@@ -1,7 +1,8 @@
 [mgr]
 prepend_keymap = [
   { on = "<Backspace>",  run = "leave", desc = "Back to the parent directory" },
-  { on = "<Enter>", run = "plugin smart-enter", desc = "Enter the child directory, or open the file" }
+  { on = "<Enter>", run = "plugin smart-enter", desc = "Enter the child directory, or open the file" },
+  { on = "<Esc>", run = "quit", desc = "Quit (選択・検索の解除は <C-[>)" }
 ]
 
 [input]
